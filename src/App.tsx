@@ -1,10 +1,10 @@
 import Layout from './layouts';
-import Router from './router';
+import FullPage from './fullPage';
 
 function App() {
 	return (
 		<Layout>
-			<Router />
+			<FullPage />
 		</Layout>
 	);
 }
