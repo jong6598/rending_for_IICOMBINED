@@ -111,7 +111,7 @@ const FullPage = () => {
 	return (
 		<div ref={outerDivRef} className="flex h-full snap-mandatory flex-col overflow-y-hidden">
 			<Layout>
-				<Dots scrollIndex={scrollIndex} />
+				<Dots scrollIndex={scrollIndex} outerDivRef={outerDivRef} setScrollIndex={setScrollIndex} />
 				<Main />
 				<div className="h-1 w-full" />
 				<GentleMonster />
